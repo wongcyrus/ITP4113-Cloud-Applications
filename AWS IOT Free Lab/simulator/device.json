@@ -1,0 +1,15 @@
+{
+    "app": {
+        "thingName": "Thermostat",
+        "publishInterval": 1000,
+        "delta": 0.75,
+        "statusInterval": 5000
+    },
+    "certs": {
+        "certificate": "certs/certificate.pem.crt",
+        "privateKey": "certs/private.pem.key",
+        "rootCA": "certs/root.pem.crt"
+    },
+    "region": "us-west-2",
+    "topic": "house"
+}
