@@ -159,6 +159,11 @@ Resources:
               - servicediscovery:Get*
               - servicediscovery:List*
               - servicediscovery:RegisterInstance
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+              - ecr:GetAuthorizationToken
+              - ecr:BatchGetImage
+              - ecr:GetDownloadUrlForLayer
             Resource: '*'
 
   Service:
